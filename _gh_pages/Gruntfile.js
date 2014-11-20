@@ -1,4 +1,4 @@
-/* jshint node: true */
+  /* jshint node: true */
 
 module.exports = function(grunt) {
   "use strict";
@@ -43,9 +43,9 @@ module.exports = function(grunt) {
     coffee: {
       home: {
         files: {
-          'dist/js/home.js': [
-            'src/js/home.coffee'
-          ]
+          // 'dist/js/home.js': [
+          //   'src/js/home.coffee'
+          // ]
         }
       },
       enterprise: {
@@ -102,7 +102,7 @@ module.exports = function(grunt) {
           // style: 'compressed'
         },
         files: {
-          'dist/css/home.css': 'src/css/home.scss'
+          // 'dist/css/home.css': 'src/css/home.scss'
         }
       }
     },
