@@ -16,11 +16,11 @@
 
 <!-- Bootstrap core CSS -->
 <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="../dist/css/custom.css" rel="stylesheet">
-<link href="../dist/css/style.css" rel="stylesheet">
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600.700,800' rel='stylesheet' type='text/css'>
 <link href="../dist/js/jquery.bxslider.css" type="text/css" rel="stylesheet">
+<link href="../dist/css/custom.css" rel="stylesheet">
+<link href="../dist/css/style.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="../dist/js/jquery.bxslider.js" type="text/javascript"></script> 
 <script href="../dist/js/app.js" type="javascript"></script>
@@ -129,7 +129,87 @@ mixpanel.init("fb61595734457ee2538ac66e36ea2f60");
 </header>
 
     <!-- Page content of course! -->
-    
+    <body onload="mixpanel.track('apm')">
+<section class="outer-wrapper">
+  <banner>
+  <section class="row" >
+    <section class="container">
+      <article class="col-lg-12 col-sm-12 col-md-12 col-xs-12 subpage-banner">
+      <h2>APM - Collect Resolve Predict </h2>
+      
+      <p>Collect Resolve Predict</p>
+      
+      </article>
+    </section>
+  </section>
+  </banner>
+  
+<section class="row" >
+    <section class="container">
+      <article class="col-lg-12 col-sm-12 col-md-12 col-xs-12 appedo-subpage-product">
+      <h2>Application Health</h2>
+      <p>Monitor the transactions of your application 24 by 7. View every performance parameter of the webserver.</p>
+      <figure><img src="../img/application-health.jpg" alt="application health"/></figure>
+      
+      </article>
+    </section>
+  </section>
+
+<section class="row" >
+    <section class="container">
+      <article class="col-lg-12 col-sm-12 col-md-12 col-xs-12 appedo-subpage-product">
+      <h2>Monitor every box and database</h2>
+      <p>Keep an eye on CPU, Memory, Network and Disk activities of every single box. Database connections, reads/writes will give you a clear picture of what is going on.</p>
+      <figure><img src="../img/box-and-database.jpg" /></figure>
+      
+      </article>
+    </section>
+  </section>
+  
+  <section class="row" >
+    <section class="container">
+      <article class="col-lg-12 col-sm-12 col-md-12 col-xs-12 appedo-subpage-product">
+      <h2>Resolve problems using deep-dive diagnostics</h2>
+      <p>View the call tree as it happens. Nail down to package, class, method, SQL query level details, to identify bottlenecks.</p>
+      <figure><img src="../img/resolve-deep-dive.jpg" alt="Resolve problems using deep-dive diagnostics"/></figure>
+      
+      </article>
+    </section>
+  </section>
+  
+  <section class="row" >
+    <section class="container">
+      <article class="col-lg-12 col-sm-12 col-md-12 col-xs-12 appedo-subpage-product">
+      <h2>Manage Service Level Agreements (SLA)</h2>
+      <p>Define and monitor SLAs all the time. Detect SLA breach and trigger event for automatic resolution.</p>
+      <figure><img src="../img/service-level-agreement.jpg" alt="Manage Service Level Agreements"/></figure>
+      
+	</article>
+    </section>
+  </section>
+  
+  <section class="row" >
+    <section class="container">
+      <article class="col-lg-12 col-sm-12 col-md-12 col-xs-12 appedo-subpage-product">
+      <h2>Automate Smoke Performance Tests</h2>
+      <p>Run automated load tests as part of your Continuous Integration to enable your apps to self-heal. Run tests from nodes across the globe.</p>
+      <figure><img src="../img/automate-smoke-performance.jpg" alt="Automate Smoke Performance Tests"/></figure>
+      
+      </article> 
+    </section>
+  </section>
+  
+  <section class="row" >
+    <section class="container">
+      <article class="col-lg-12 col-sm-12 col-md-12 col-xs-12 appedo-subpage-product">
+      <h2>Track the load, speed and errors thru a unified dashboard</h2>
+      <p>More load leads to more business transactions, reduced speed and increased errors. If we see all these on the same page, we have a game.</p>
+      <figure><img src="../img/unified-dashboard.jpg" alt="unified dashboard"/></figure>
+      
+      </article>
+    </section>
+  </section>
+</section>
 
       <footer>
     <section class="row">
@@ -139,11 +219,11 @@ mixpanel.init("fb61595734457ee2538ac66e36ea2f60");
             <article class="footer-links-product">
               <p class="footer-links-title">Product</p>
               <ul class="footer-links-list">
-                <li><a href="../product-apm.html" title="Product APM">APM</a></li>
-                <li><a href="../product-rum.html" title="Real User Monitoring">Real User Monitoring</a></li>
-                <li><a href="../mobile.html" title="Mobile">Mobile</a></li>
-                <!--<li><a href="../predictive-analytics.html" title="Predictive Analytics">Predictive Analytics</a></li>-->
-                <li><a href="../product-load-test.html" title="Load Testing">Load Testing</a></li>
+                <li><a href="../product-apm" title="Product APM">APM</a></li>
+                <li><a href="../product-rum" title="Real User Monitoring">Real User Monitoring</a></li>
+                <li><a href="../mobile" title="Mobile">Mobile</a></li>
+                <!--<li><a href="../predictive-analytics" title="Predictive Analytics">Predictive Analytics</a></li>-->
+                <li><a href="../product-load-test" title="Load Testing">Load Testing</a></li>
               </ul>
             </article>
           </section>
@@ -151,12 +231,12 @@ mixpanel.init("fb61595734457ee2538ac66e36ea2f60");
             <article class="footer-links-about">
               <p class="footer-links-title">About us</p>
               <ul class="footer-links-list">
-                <li><a href="../leadership.html" title="Leadership">Leadership</a></li>
-                <!--<li><a href="../news.html" title="News">News</a></li>-->
-                <li><a href="../clients.html" title="Clients">Clients</a></li>
-                <li><a href="../fact.html" title="Facts">Facts</a></li>
-                <li><a href="../price.html" title="Pricing">Pricing</a></li>
-                <li><a href="../contactus.html" title="Contact Us">Contact us</a></li>
+                <li><a href="../leadership" title="Leadership">Leadership</a></li>
+                <!--<li><a href="../news" title="News">News</a></li>-->
+                <li><a href="../clients" title="Clients">Clients</a></li>
+                <li><a href="../fact" title="Facts">Facts</a></li>
+                <li><a href="../price" title="Pricing">Pricing</a></li>
+                <li><a href="../contactus" title="Contact Us">Contact us</a></li>
               </ul>
             </article>
           </section>
@@ -164,8 +244,8 @@ mixpanel.init("fb61595734457ee2538ac66e36ea2f60");
             <article class="footer-links-support">
               <p class="footer-links-title">Support</p>
               <ul  class="footer-links-list">
-                <li><a href="../faq.html" title="FAQ">FAQ</a></li>
-                <li><a href="../blog.html" title="Blog">Blog</a></li>
+                <li><a href="../faq" title="FAQ">FAQ</a></li>
+                <li><a href="../blog" title="Blog">Blog</a></li>
               </ul>
             </article>
           </section>
@@ -175,7 +255,7 @@ mixpanel.init("fb61595734457ee2538ac66e36ea2f60");
               <p class="footer-txt">Appedo is the next gen APM for the high-tech world. Appedo provides health-care for your apps. Our performance data enables you to overcome any bottlenecks, in the least possible time and cost. Appedo eliminates multiple tools and keeps your dev, test, ops and business teams on the same page.</p>
             </article>
             <article class="footer-btn-cont"> <a href="../#">
-              <a href="../signup.html"><article class="footer-btn">Create Free Account</article></a>
+              <a href="../signup"><article class="footer-btn">Create Free Account</article></a>
               </a> <a href="../#">
               <article class="footer-more">Learn more</article>
               </a> </article>
