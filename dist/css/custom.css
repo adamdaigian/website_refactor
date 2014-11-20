@@ -36,7 +36,7 @@ hr {display:block; height:1px; border:0;border-top:1px solid #cccccc;margin:1em 
 @font-face {
   font-family: 'Helvetica';
   src: url('../fonts/Helvetica.eot');
-  src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica.woff') format('woff'), url('../fonts/Helvetica.ttf') format('truetype'), url('../fonts/Helvetica.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'), url('../../fonts/Helvetica.woff') format('woff'), url('../../fonts/Helvetica.ttf') format('truetype'), url('../../fonts/Helvetica.svg#glyphicons_halflingsregular') format('svg');
 }
 img{max-width:100%;}
 
@@ -91,7 +91,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e8278', endC
 	
 .carousel-monitor-cont-list{font-size:22px; padding:0; margin:20px 0 0 0;}
 .carousel-monitor-cont-list ul{padding:0; margin:0;}
-.carousel-monitor-cont-list li{padding:6px 0 10px 32px; margin:0; background:url({{ page.base_url }}img/arrow-list.png) no-repeat left 3px ; list-style-type:none;  }
+.carousel-monitor-cont-list li{padding:6px 0 10px 32px; margin:0; background:url('../../img/arrow-list.png') no-repeat left 3px ; list-style-type:none;  }
 
 .carousel-caption{ bottom:150px;}
 .carousel-img{ padding:25px 0; margin:0 0 0 6%; width:50%}
@@ -131,8 +131,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e8278', endC
 }
 .product-button{width:320px; margin:0 36%; float:left}
 
-.create-free-account-btn{ background:url("./img/create-free-account_btn.png"); width:172px; height:44px; position:absolute; top:45%; right:12%}
-.create-free-account-btn1{ background:url("./img/create-free-account_btn.png"); width:172px; height:44px; position:absolute;top:65%; right:37%}
+.create-free-account-btn{ background:url('../../img/create-free-account_btn.png'); width:172px; height:44px; position:absolute; top:45%; right:12%}
+.create-free-account-btn1{ background:url('../../img/create-free-account_btn.png'); width:172px; height:44px; position:absolute;top:65%; right:37%}
 
 .our-client-cont{padding:20px 0; margin:0; width:100%; background:#16a086; text-align:center; font-size:60px; font-weight:normal; color:#fff;}
 .our-client-content{background:#d6d6d6; padding:0; margin:0; clear:left;}
