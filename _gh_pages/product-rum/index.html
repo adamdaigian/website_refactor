@@ -70,7 +70,11 @@ mixpanel.init("fb61595734457ee2538ac66e36ea2f60");
     <section class="container">
       <section class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
         <section class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
-          <figure class="m-logo"><a href="../" target="_self"><img src="../img/logo.png" alt="appedo logo" title="appedo logo"/></a></figure>
+          <figure class="m-logo">
+            <a href="../" target="_self">
+            <!-- <img src="../img/logo.png" alt="appedo logo" title="appedo logo"/> -->
+            </a>
+          </figure>
         </section>
         <section class="col-lg-8 col-sm-8 col-md-8 col-xs-12">
           <article class="bs-example">
@@ -83,39 +87,60 @@ mixpanel.init("fb61595734457ee2538ac66e36ea2f60");
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                      <li class="nav-selected"><a href="../">Home</a></li>
-                      <li class="dropdown"><a href="../#" class="dropdown-toggle" data-toggle="dropdown">Products
+                      <li >
+                        <a href="../">Home</a>
+                      </li>
+                      <li  id="nav-selected" class="dropdown">
+                        <a href="../#" class="dropdown-toggle" data-toggle="dropdown">Products
                         <span class="caret"></span>
-                      </a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="../product-apm">APM</a></li>
-                        <li><a href="../product-rum">Real User Monitoring</a></li>
-                        <li><a href="../mobile">Mobile</a></li>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li>
+                            <a href="../product-apm">APM</a>
+                          </li>
+                          <li>
+                            <a href="../product-rum">Real User Monitoring</a>
+                          </li>
+                          <li>
+                            <a href="../mobile">Mobile</a>
+                          </li>
                         <!--<li><a href="../predictive-analytics">Predictive Analytics</a></li>-->
-                        <li><a href="../product-load-test">Load Testing</a></li>
+                          <li>
+                            <a href="../product-load-test">Load Testing</a>
+                        </li>
                       </ul>
                     </li>
-                    <li><a href="../price" title="pricing">Pricing</a></li>
-                    <li class="dropdown"><a href="../#">About Us
+                    <li >
+                      <a href="../price" title="pricing">Pricing</a>
+                    </li>
+                    <li class="dropdown" >
+                      <a href="../#">About Us
                       <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="../leadership" title="Leadership">Leadership</a></li>
-                      <!--<li><a href="../news" title="News">News</a></li>-->
-                      <li><a href="../clients" title="Clients">Clients</a></li>
-                      <li><a href="../fact" title="Facts">Facts</a></li>
-                      <li><a href="../contactus" title="Contact Us">Contact Us</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="../#">Support
-                    <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="../faq" title="FAQ">FAQ</a></li>
-                    <li><a href="../blog" title="Blog">Blog</a></li>
-                  </ul>
-                  
-                </li>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li>
+                          <a href="../leadership" title="Leadership">Leadership</a>
+                        </li>
+                        <li>
+                          <a href="../clients" title="Clients">Clients</a>
+                        </li>
+                        <li>
+                          <a href="../fact" title="Facts">Facts</a>
+                        </li>
+                        <li>
+                          <a href="../contactus" title="Contact Us">Contact Us</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown" >
+                      <a href="../#">Support
+                      <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="../faq" title="FAQ">FAQ</a></li>
+                        <li><a href="../blog" title="Blog">Blog</a></li>
+                      </ul>
+                    </li>
               </ul>
             </div>
             <!-- /.navbar-collapse -->
