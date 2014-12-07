@@ -1,4 +1,4 @@
-<!-- ---
+---
 ---
 
 
@@ -20,70 +20,4 @@
   </url>
   {% endif %}
   {% endfor %}
-</urlset> -->
-
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://appedo.com/</loc>
-  <lastmod>2014-11-03T19:12:34+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/index.html</loc>
-  <lastmod>2014-11-03T19:12:34+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/product-apm.html</loc>
-  <lastmod>2014-11-03T19:12:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/product-rum.html</loc>
-  <lastmod>2014-11-03T19:12:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/mobile.html</loc>
-  <lastmod>2014-11-03T19:12:34+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/product-load-test.html</loc>
-  <lastmod>2014-11-03T19:12:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/price.html</loc>
-  <lastmod>2014-11-03T19:12:34+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/leadership.html</loc>
-  <lastmod>2014-11-03T19:12:34+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/clients.html</loc>
-  <lastmod>2014-11-03T19:12:33+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/fact.html</loc>
-  <lastmod>2014-11-03T19:12:33+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/contactus.html</loc>
-  <lastmod>2014-11-03T19:12:33+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/faq.html</loc>
-  <lastmod>2014-11-03T19:12:34+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/blog.html</loc>
-  <lastmod>2014-11-03T19:12:33+00:00</lastmod>
-</url>
-<url>
-  <loc>http://appedo.com/signup.html</loc>
-  <lastmod>2014-11-03T19:12:35+00:00</lastmod>
-</url>
 </urlset>
